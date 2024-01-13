@@ -383,7 +383,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #about .about-img {
-    background: url('../images/about.jpg') no-repeat;
+    background: url('../images/about.png') no-repeat;
 }
 
 #about .about-thumb,
@@ -440,7 +440,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #experience .experience-img {
-  background: url('../images/experience-img.jpg') no-repeat;
+  background: url('../images/exprerience-img.jpg') no-repeat;
 }
 
 #experience .media-heading {
