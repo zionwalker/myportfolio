@@ -466,7 +466,7 @@ a:hover, a:active, a:focus {
 }
 
 #education .education-img {
-  background: url('../images/education-img.jpg') no-repeat;
+  background: url('../images/education-img.png') no-repeat;
 }
 
 #education .media-heading {
@@ -533,7 +533,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact .contact-img {
-  background: url('../images/try.png') no-repeat;
+  background: url('../images/contact-img.jpg') no-repeat;
   min-height: 75vh;
 }
 
