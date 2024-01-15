@@ -17,6 +17,42 @@
 <link rel="stylesheet" href="css/templatemo-style.css">
 
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("bOCi5YerfztKmrY4O");
+   })();
+</script>
+<!-- ... previous code ... -->
+
+<script>
+     function sendMail() {
+         var data = {
+             from_name: document.getElementById("fullname").value,
+             email_id: document.getElementById("email").value,
+             message: document.getElementById("message").value,
+         }
+ 
+         emailjs.send("service_ygay8hv", "template_i38n36j", data)
+             .then(function (res) {
+                 alert("Success! " + res.status);
+ 
+                 // Reset the form fields
+                 document.getElementById("fullname").value = "";
+                 document.getElementById("email").value = "";
+                 document.getElementById("message").value = "";
+             })
+             .catch(function (error) {
+                 console.error("Error sending email:", error);
+             });
+     }
+ </script>
+ 
+ <!-- ... rest of your HTML ... -->
+ 
+
 
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
@@ -333,21 +369,21 @@
                          </div>
 
                          <div id="contact-form">
-                              <form action="#template-mo" method="post">
-                                   <div class="wow fadeInUp" data-wow-delay="1s">
-                                        <input name="fullname" type="text" class="form-control" id="fullname" placeholder="Your Name">
-                                   </div>
-                                   <div class="wow fadeInUp" data-wow-delay="1.2s">
-                                        <input name="email" type="email" class="form-control" id="email" placeholder="Your Email">
-                                   </div>
-                                   <div class="wow fadeInUp" data-wow-delay="1.4s">
-                                        <textarea name="message" rows="5" class="form-control" id="message" placeholder="Write your message..."></textarea>
-                                   </div>
-                                   <div class="wow fadeInUp col-md-6 col-sm-8" data-wow-delay="1.6s">
-                                        <input name="submit" type="submit" class="form-control" id="submit" value="Send">
-                                   </div>
+                              <form id="contactin-form" method="post" onsubmit="sendMail(); return false;">
+                                  <div class="wow fadeInUp" data-wow-delay="1s">
+                                      <input name="fullname" type="text" class="form-control" id="fullname" placeholder="Your Name">
+                                  </div>
+                                  <div class="wow fadeInUp" data-wow-delay="1.2s">
+                                      <input name="email" type="email" class="form-control" id="email" placeholder="Your Email">
+                                  </div>
+                                  <div class="wow fadeInUp" data-wow-delay="1.4s">
+                                      <textarea name="message" rows="5" class="form-control" id="message" placeholder="Write your message..."></textarea>
+                                  </div>
+                                  <div class="wow fadeInUp col-md-6 col-sm-8" data-wow-delay="1.6s">
+                                      <input name="submit" type="submit" class="form-control" id="submit" value="Send">
+                                  </div>
                               </form>
-                         </div>
+                          </div>
 
                     </div>
                </div>
@@ -366,8 +402,30 @@
                          <div class="wow fadeInUp contact-info" data-wow-delay="0.8s">
                               <h3 class="color-white">Contact.</h3>
                               <p><i class="fa fa-phone"></i> 0948-251-946</p>
-                              <p><i class="fa fa-envelope-o"></i> <a href="mailto:hello@company.co">zerihunzefine2022@gmail.com</a></p>
-                              <p><i class="fa fa-globe"></i> <a href="#">zedo</a></p>
+                              <p><i class="fa fa-phone"></i> 0973-464-685</p>
+                              <p><i class="fa fa-phone"></i> 0710-761-435</p>
+                              
+                              <div class="container">
+                                   <div class="row">
+                         
+                                        <div class="col-md-12 col-sm-12">
+                                             
+                                             <ul class="wow fadeInUp social-icon" data-wow-delay="2s">
+                                                  <li><a href="https://www.facebook.com/profile.php?id=100072985321395" class="fa fa-facebook"></a></li>
+                                                  <!--<li><a href="#" class="fa fa-twitter"></a></li>-->
+                                                  <li><a href="https://t.me/Zionwalker_Jr" class="fa fa-paper-plane"></a></li>
+                                                  <li><a href="https://www.instagram.com/phoenix_series96?igsh=anphOWIzbDkzYmI=" class="fa fa-instagram"></a></li>
+                                                  <li><a href="https://www.linkedin.com/in/zerihun-zefine-55a984286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="fa fa-linkedin"></a></li>
+                                             </ul>
+                                             <div class="wow fadeInUp footer-copyright" data-wow-delay="1.8s">
+                                                  <p>Copyright &copy; Zerihun
+                                             
+                                             | Design: <a href="https://t.me/Zionwalker_Jr" target="_parent">Zerihun</a></p>
+                                             </div>
+                                        </div>
+                                        
+                                   </div>
+                              </div>
                          </div>
 
                     </div>
@@ -376,33 +434,6 @@
           </div>
      </div>
 </section>
-
-
-<!-- Footer Section -->
-
-<footer>
-	<div class="container">
-		<div class="row">
-
-               <div class="col-md-12 col-sm-12">
-                    <div class="wow fadeInUp footer-copyright" data-wow-delay="1.8s">
-                         <p>Copyright &copy; Zerihun Zefine
-                    
-                    | Design: <a href="http://www.facebook.com/+Ze Do" target="_parent">Zerihun</a></p>
-                    </div>
-				<ul class="wow fadeInUp social-icon" data-wow-delay="2s">
-                         <li><a href="#" class="fa fa-facebook"></a></li>
-                         <li><a href="#" class="fa fa-twitter"></a></li>
-                         <li><a href="#" class="fa fa-paper-plane"></a></li>
-                         <li><a href="#" class="fa fa-instagram"></a></li>
-                         <li><a href="#" class="fa fa-linkedin"></a></li>
-                    </ul>
-               </div>
-			
-		</div>
-	</div>
-</footer>
-
 <!-- SCRIPTS -->
 
 <script src="js/jquery.js"></script>
