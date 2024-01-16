@@ -1,7 +1,11 @@
-  My-Portfolio
+My-Portfolio
 
-This repository hosts the code for my individual portfolio website, presenting details about my identity, skills, and completed projects. It acts as a medium to spotlight my professional background and accomplishments.
+    This repository hosts the code for my individual portfolio website, 
+    presenting details about my identity, skills, and completed projects. 
+    It acts as a medium to spotlight my professional background and accomplishments.
+
 Technologies Employed:
+
     HTML
     CSS
     JavaScript
@@ -40,4 +44,5 @@ If you wish to contribute, kindly adhere to the following guidelines:
     Submit a pull request, succinctly detailing the nature of your changes for thorough review.
 
 Your efforts in contributing to the refinement of this portfolio are greatly appreciated.
+
     the links : https://zerihunzefine.netlify.app/
