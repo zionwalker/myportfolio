@@ -1,5 +1,4 @@
-My-Portfolio
-My Portfolio Website
+  My-Portfolio
 
 This repository hosts the code for my individual portfolio website, presenting details about my identity, skills, and completed projects. It acts as a medium to spotlight my professional background and accomplishments.
 Technologies Employed:
