@@ -15,7 +15,7 @@ Key Features:
 
     Introduction: Home section featuring a comprehensive introduction.
 
-    Professional Overview: About section providing detailed insights into my background, skills, and the services I offer.
+    About: About section providing detailed insights into my background, skills, and the services I offer.
 
     Experience Showcase: Experience section offering in-depth information about my educational background and professional journey.
 
