@@ -45,4 +45,4 @@ If you wish to contribute, kindly adhere to the following guidelines:
 
 Your efforts in contributing to the refinement of this portfolio are greatly appreciated.
 
-    the links : https://zerihunzefine.netlify.app/
+the links : https://zerihunzefine.netlify.app/
